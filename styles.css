@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+#div-main {
+    height: 100vh;
+    width: 100vw;
+    background: url("./assets/image.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 55%;
+    margin-top: 120px;
+
+}
+
+#msgTela {
+    width: 55%;
+    margin-top: 40px;
+
+}
+
+#GetStarted {
+    width: 80%;
+    height: 54px;
+    box-shadow: 0 3px black;
+    border-color: black;
+    border-radius: 14px;
+    color: white;
+    margin-top: 190px;
+    background-color: #63B8FF;
+    font-weight: bold;
+    font-size: 16px;
+}
+#Login{
+    width: 80%;
+    height: 54px;
+    box-shadow: 0 3px black;
+    border-color: black;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: black;
+    opacity: 0.5;
+
+}
